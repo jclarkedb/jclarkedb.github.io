@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+  background-color: #5e82bc;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+h3 {
+  text-align: center;
+  margin: 10px 0 70px 0;
+  color: #fff;
+}
+.container {
+  width: 540px;
+  display: block;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px 50px;
+  border-radius: 10px;
+  color: #5e82bc;
+}
+#quoteContainer {
+  font-size: 2em;
+  padding: 0;
+  margin: 0 0 5px 0;
+}
+#authorContainer {
+  font-size: 1.2em;
+  margin: 0 0 20px 0;
+  text-align: right;
+}
+@media only screen and (max-width: 550px) {
+  .container {
+    width: 95%;
+  }
+  #quoteContainer {
+    font-size: 1.5em;
+  }
+  #authorContainer {
+    font-size: 1em;
+  }
+  
+}
+
+button, .fa-twitter {
+  background-color: #5e82bc;
+  border: 0;
+  border-radius: 3px;
+  padding: 12px 15px;
+  margin: 20px 0 0 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+}
+button#newQuote {
+  float: right;
+}
+
+button:hover, .fa-twitter:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+footer {
+  color: #fff;
+  padding-top: 10px;
+  text-align: center;
+}

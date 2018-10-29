@@ -1,0 +1,53 @@
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-user-select: none; /* Chrome, Opera, Safari */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+
+#score, #topscore {
+  cursor: default;
+  color: #fff;
+/*   background-color: #5bc0de;
+    border-color: #46b8da; */
+}
+
+#question-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: background-color 0.1s;
+}
+h1#question {
+  font-size: 8rem;
+}
+
+.panel-heading {
+  cursor: default;
+}
+
+.well {
+  font-size: 2rem;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+.well:hover {
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    color: #fff;
+    transition: background-color 0.2s;
+  cursor: pointer;
+}
+.well:active {
+    background-color: #31b0d5;
+    border-color: #1b6d85;
+}
+html.can-touch .well:hover, html.can-touch .well:active {
+  background-color: #eee;
+  border-color: #e3e3e3;
+  color: #333;  
+}
+
+

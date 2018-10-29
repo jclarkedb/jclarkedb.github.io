@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119233341-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119233341-1');
+</script>
+
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Tic Tac Toe" />
+  <meta property="og:description" content="Play the classic game of Tic-Tac-Toe. Also known as 'Naughts and Crosses' against the computer." />
+  <meta property="og:type" content="games.plays" />
+  <meta property="og:url" content="http://www.jncwebdev/tictactoe/" />
+  <meta property="og:image" content="http://jncwebdev.co.uk/images/portfolio/tictactoe.jpg" />
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://use.fontawesome.com/releases/v5.0.9/css/all.css'>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <header>
+    <h1>Tic Tac Toe</h1>
+  </header>
+  <div class="container">
+    <div class="top-box">
+      <div id="x-box"><h2>X</h2></div>
+      <div id="o-box"><h2>O</h2></div>
+    </div>
+    <table>
+      <tr><td id="topLeft"></td><td id="topMiddle"></td><td id="topRight"></td></tr>
+      <tr><td id="middleLeft"></td><td id="middleMiddle"></td><td id="middleRight"></td></tr>
+      <tr><td id="bottomLeft"></td><td id="bottomMiddle"></td><td id="bottomRight"></td></tr>
+    </table>
+    <div class="winner-modal">
+      <h4><span id="winner">Player wins</span></h4>
+      <button type="button">Play again</button>
+    </div>
+    <div class="toggleswitch">
+      <p>Computer goes first: </p>
+      <label class="switch">
+        <input id="checkbox" type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="stats-box">
+      <div class="icon"><i class="far fa-user"></i> <span id="playerScore">0</span>
+        <span class="tooltip_text">Player wins</span>
+      </div>
+      <div class="icon"><i class="fas fa-redo"></i> <span id="drawScore">0</span>
+        <span class="tooltip_text">Draws</span>
+      </div>
+      <div class="icon"><i class="fas fa-laptop"></i> <span id="computerScore">0</span>
+        <span class="tooltip_text">Computer wins</span>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <h6>Built and coded with <span style="color:red">&#10084;</span> by <a href="http://jncwebdev.co.uk/" target="_blank">JNC</a></h6>
+  </footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+  <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 20px 0 0 0;
+  background-color: #672E3B;
+}
+
+h1.title {
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+a, a:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.random-search {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.random-search a {
+  color: #fff;
+  text-decoration: underline;
+}
+.random-search a h6 {
+  font-weight: normal;
+}
+
+.card {
+  border-left: 5px solid #FFC107;
+  box-shadow: 2px 2px #000;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: none;
+  top: 2px;
+  left: 2px;
+}
+
+.failed {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px #000;
+  margin: 20px 0 40px 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}

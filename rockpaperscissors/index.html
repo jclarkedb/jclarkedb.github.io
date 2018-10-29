@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Rock, Paper, Scissors</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container text-center">
+  <h2 class="title">Rock Paper Scissors</h2>
+  <div class="row">
+    <div class="col-5">
+      <div id="player-score" class="badge badge-info">0</div>
+      <h5>Player</h5>
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text">
+            <i id="player-rock" class="far fa-hand-rock" data-fa-transform="rotate-90"></i>
+            <i id="player-paper" class="far fa-hand-paper" data-fa-transform="rotate-90"></i>
+            <i id="player-scissors" class="far fa-hand-scissors" data-fa-transform="flip-h"></i>
+          </p>
+          <div class="card-footer">
+            <p id="player-choice-text">&nbsp;</p>
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+      <button type="button" id="rock-btn" class="btn btn-danger" onclick="playGame('rock')" disabled><i class="far fa-hand-rock"></i></button>
+      <button type="button" id="paper-btn" class="btn btn-danger" onclick="playGame('paper')" disabled><i class="far fa-hand-paper"></i></button>
+      <button type="button" id="scissors-btn" class="btn btn-danger" onclick="playGame('scissors')" disabled><i class="far fa-hand-scissors" data-fa-transform="rotate-90"></i></button>
+      </div>
+    </div> <!-- end col -->
+    <div class="col-2">
+      <h1 id="countdown"></h1>
+    </div>
+    <div class="col-5">
+      <div id="comp-score" class="badge badge-info">0</div>
+      <h5>Computer</h5>
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text">
+            <i id="comp-rock" class="far fa-hand-rock" data-fa-transform="rotate-270"></i>
+            <i id="comp-paper" class="far fa-hand-paper" data-fa-transform="rotate-270"></i>
+            <i id="comp-scissors" class="far fa-hand-scissors"></i>
+          </p>
+          <div class="card-footer">
+            <p id="comp-choice-text">&nbsp;</p>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- end col -->
+  </row>
+  <div class="victor text-center">
+    <p id="who-beats-who" class="text-info"></p>
+    <p id="who-wins"></p>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+<script src='https://use.fontawesome.com/releases/v5.0.6/js/all.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

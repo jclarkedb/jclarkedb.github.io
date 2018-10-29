@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding-top: 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container {
+  width: 280px;
+  border: 3px solid #bbb;
+  border-radius: 15px;
+  margin: 0 auto;
+  background: linear-gradient(#0d0d0d,#000000);
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  box-shadow: 1px 14px 25px -1px rgba(0,0,0,0.75);
+}
+header {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+header h1 {
+  font-size: 1rem;
+  letter-spacing: 1.6pt;
+  font-weight: 500;
+}
+
+.display-container {
+  padding: 10px 0;
+}
+.display-container #screen {
+  width: 90%;
+  display: block;
+  line-height: 2.4rem;
+  letter-spacing: 1.5pt;
+  font-weight: 500;
+  margin: 10px auto;
+  padding: 0 5px;
+  height: 40px;
+  border: 0;
+  background-color: #222;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  text-align: right;
+  box-shadow: inset 1px 1px 5px 2px rgba(0,0,0,0.5);
+  overflow: hidden;
+}
+
+.buttons-container {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+.buttons-container .row {
+  padding: 1px 0;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.buttons-container .row .button {
+  display: inline-block;
+  width: 59px;
+  padding: 6px;
+  margin: 0 1px;
+  border: 0;
+  text-align: center;
+  background: linear-gradient(#8c8c8c,#4d4d4d); /* 55% 30% */
+  color: #fff;
+  font-weight: bold;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.button:active {
+    transform: translate(0px, 1px);
+}
+.blank {
+  visibility: hidden;
+}
+.erase {
+  background: linear-gradient(#ff1a1a,#990000) !important;
+}
+.operator {
+  background: linear-gradient(#404040,#1a1a1a) !important;
+}
+.equals {
+  background: linear-gradient(#1a1aff,#000099) !important;
+}
+.plus {
+  position: absolute;
+  height: 66px;
+  line-height: 50px;
+  right: 16px;
+}
+
+.bottom {
+  color: #fff;
+  text-align: center;
+}
+.bottom h5 {
+  display: inline-block;
+  border: 1px solid #8c8c8c;
+  padding: 5px 8px;
+  margin: 20px 0 0 0;
+  border-radius: 50%;
+  font-weight: lighter;
+  user-select: none;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+}

@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Montserrat|Roboto+Slab");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  border: 0;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.transparent {
+  background: none;
+}
+
+.semi-transparent {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.container-fluid {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.first-container {
+  padding: 150px 0;
+  background: #f8f8f8 url("../images/background4.jpg") no-repeat fixed center;
+  background-color: #27294B;
+  background-size: cover;
+}
+.first-container .intro-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 20px 40px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #000;
+  border-radius: 8px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.first-container .intro-container h1 {
+  font-size: 35px;
+  font-family: "Roboto Slab", cursive;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 768px) {
+  .first-container .intro-container h1 {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .first-container .intro-container h1 {
+    font-size: 28px;
+  }
+}
+
+#greeting_bottom {
+  visibility: hidden;
+}
+#greeting_bottom h2 {
+  display: inline-block;
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #fff;
+  font-size: 30px;
+}
+@media screen and (max-width: 768px) {
+  #greeting_bottom h2 {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #greeting_bottom h2 {
+    font-size: 20px;
+  }
+}
+#greeting_bottom .social-icons a {
+  color: #fff;
+  padding: 10px;
+  font-size: 28px;
+}
+@media screen and (max-width: 768px) {
+  #greeting_bottom .social-icons a {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #greeting_bottom .social-icons a {
+    font-size: 20px;
+  }
+}
+
+.btn-circle {
+  margin-top: 20px;
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 100%;
+  color: #eee;
+  font-size: 40px;
+  line-height: 1.33;
+  background: none;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+}
+@media screen and (max-width: 480px) {
+  .btn-circle {
+    width: 60px;
+    height: 60px;
+    font-size: 36px;
+    line-height: 1.18;
+  }
+}
+
+.btn-circle:hover {
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 48px;
+  color: #fff;
+  line-height: 1.2;
+}
+@media screen and (max-width: 480px) {
+  .btn-circle:hover {
+    font-size: 40px;
+  }
+}
+
+.second-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #eee url("http://supernovathemes.com/wp-content/themes/supernovathemes/images/bg/b2.png") repeat;
+  color: #333;
+}
+.second-container h2 {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+.second-container p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.8;
+  margin-bottom: 28px;
+}
+.second-container .container img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 6px;
+}
+
+.third-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #fff;
+}
+@media screen and (min-width: 992px) {
+  .third-container {
+    width: 80%;
+  }
+}
+.third-container h2 {
+  margin: 10px auto 30px auto;
+}
+.third-container p.subheading {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.8;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.portfolio-col .thumbnail {
+  max-width: 350px;
+  /* min-height: 341px; */
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 5px #aaa;
+  position: relative;
+  top: 0;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.portfolio-col .thumbnail .caption {
+  display: initial;
+  position: absolute;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 5px;
+  background: rgba(20, 20, 20, 0.8);
+  color: #fff;
+  text-align: left;
+  border-radius: 0 0 6px 6px;
+  overflow-y: hidden;
+}
+@media screen and (min-width: 992px) {
+  .portfolio-col .thumbnail .caption {
+    display: none;
+  }
+}
+.portfolio-col .thumbnail .caption h4 {
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 2px 2px #000;
+}
+
+.up-hover:hover {
+  top: -5px;
+  box-shadow: 10px 10px 10px #aaa;
+}
+
+.fourth-container {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  background-color: #666;
+  color: white;
+}
+
+#contact-form label {
+  font-size: 0.9em;
+  color: #e5e5e5;
+}
+.has-error .help-block {
+  color: #ff8080;
+}
+
+.social-buttons {
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+}
+.social-buttons a {
+  color: #fff;
+  font-size: 20px;
+}
+
+footer {
+  padding-top: 10px;
+  font-size: 1.3rem;
+  background-color: #222;
+  color: white;
+}

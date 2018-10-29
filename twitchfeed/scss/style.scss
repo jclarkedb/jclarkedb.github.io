@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: #a68adb;
+  padding: 10px;
+}
+
+.container {
+  padding: 0;
+  max-width: 400px;
+  background: #6441A4;
+}
+
+header {
+  color: #fff;
+  img {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  h4 {
+    margin-bottom: 20px;
+  }
+}
+
+.nav-justified > li {
+  border-bottom: 0;
+}
+.nav-justified > li > a {
+  color: #fff;
+  border-bottom: 0 !important;
+}
+.nav-justified > li > a:hover {
+  color: #55557A;
+  background: #fff;
+}
+@media (max-width: 768px) {
+  .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-justified > li > a  {
+    border-bottom: 0 !important;
+    border-radius: 4px 4px 0 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+.input-group {
+  padding: 20px 20px 10px 20px;
+}
+
+.row {
+  margin-right: 0;
+}
+.streams_container {
+  background-color: #fff;
+  margin-bottom: 0;
+  .logo img {
+    width: 60px;
+    margin: 10px 10px 10px 20px;
+    float: right;
+  }
+  .stream_details {
+    color: #6441A4;
+    display: block;
+      overflow-x: hidden;
+    .name {
+      margin-top: 28px;
+      text-align: left;
+    }
+    .game {
+      margin-top: -12px;
+      font-size: 12px;
+      color: #aaa;
+      text-align: left;
+    }
+  }
+  
+  .online_offline {
+    font-size: 25px;
+    p {
+      margin-top: 20px;
+      margin-right: 30px;
+    }
+    .fa-check {
+      color: #006400;
+    }
+    .fa-times {
+      color: #C81700;
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  color: #333;
+}

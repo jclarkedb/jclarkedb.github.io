@@ -1,0 +1,112 @@
+.container {
+  min-width: 350px;
+  }
+.title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+.rotate {
+  font-size: 0.8em;
+  display: none;
+}
+
+.badge {
+  padding: 10px;
+  font-size: 1em;
+}
+
+.card {
+  margin-bottom: 10px;
+  box-shadow: -1px 1px 3px;
+  .card-body {
+    color: tomato;
+    font-size: 9em;
+    padding: 0;
+    .card-text {
+      min-height: 220px;
+      background: radial-gradient(circle, #fff, #f2f6fc);
+      margin-bottom: 0;
+    }
+    .card-footer {
+      font-size: 20px;
+      color: #333;
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.1em;
+  button {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+#countdown {
+  margin-top: 140px;
+  display: none;
+}
+
+.victor {
+  padding: 20px 0;
+  width: 100%;
+  p {
+    font-size: 1.2em;
+  }
+}
+
+#player-rock, #player-paper, #player-scissors, #comp-rock, #comp-paper, #comp-scissors {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .card {
+    .card-body {
+      font-size: 6em;
+      .card-text {
+        min-height: 150px;
+      }
+      .card-footer {
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 575px) {
+  .card {
+    .card-body {
+      font-size: 5em;
+      .card-text {
+        min-height: 120px;
+      }
+      .card-footer {
+        font-size: 15px;
+      }
+    }
+  }
+  .buttons {
+    button {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  .victor {
+  padding: 10px 0;
+  width: 100%;
+  p {
+    font-size: 1.1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+}
+@media only screen and (max-width: 350px) and (orientation: portrait) {
+  .rotate {
+    display: block;
+  } 
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119233341-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119233341-1');
+</script>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Jamie Clarke</title>
+    <meta name="description" content="Portfolio for Jamie Clarke. Trainee/Junior Web Developer">
+    
+<!--    <link rel="icon" type="image/png" href="favicon.png">-->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="styles/style.css" rel="stylesheet">
+
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top semi-transparent">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#top">JNC</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about"><i class="fa fa-user" aria-hidden="true"></i> ABOUT</a></li>
+          <li><a href="#portfolio"><i class="fa fa-files-o" aria-hidden="true"></i> PORTFOLIO</a></li>
+          <li><a href="#contact"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- First Container (TOP) -->
+  <div class="first-container container-fluid text-center" id="top">
+    <div class="intro-container">
+      <h1 id="greeting"></h1>
+      <div id="greeting_bottom">
+        <h2>Aspiring Developer</h2>
+        <div class="social-icons">
+          <a href="https://www.github.com/jclarkedb" target="_blank"><i class="fa fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/jamie-clarke-jnc" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="https://codepen.io/jclarkedb/" target="_blank"><i class="fa fa-codepen"></i></a>
+          <a href="https://www.freecodecamp.com/jclarkedb" target="_blank"><i class="fa fa-free-code-camp"></i></a>
+        </div>
+      </div>
+      <a class="btn btn-default btn-circle" href="#about">
+        <i class="fa fa-angle-double-down"></i>
+      </a>
+    </div>
+  </div>
+  
+  <!-- Second Container (ABOUT) -->
+  <div class="second-container container-fluid" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2><i class="fa fa-user"></i> A little about me</h2>
+        </div>
+        <div class="col text-center">
+            <img class="img-responsive img-circle img-thumbnail center-block" src="images/jamie2.jpg" alt="Jamie" width="200" />
+        </div>
+        <div class="col">
+          <p>My name is Jamie Clarke, from the United Kingdom. I am an aspiring developer currently studying to learn new skills in the world of Web Development. With an eye for design and willingness to learn and create, I aspire to be a full stack developer.</p>
+          <h2><i class="fa fa-code"></i> Experience</h2>
+          <p>My current focus is on developing my skills using HTML, CSS, Javascript and PHP, and the frameworks that surround them. I enjoy creating new web apps and websites to test and enhance my knowledge. As displayed in my <a href="#portfolio">portfolio</a>.</p>
+          <h2><i class="fa fa-check-square-o"></i> Goals</h2>
+          <p>My primary goal is to gain enough knowledge and experience to become employed in the industry. If you are hiring, and are looking for an enthuiastic, mature junior developer with a keen eye for detail, please do not hesitate to <a href="#contact">contact me</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Third Container (PORTFOLIO) -->
+  <div class="third-container container-fluid text-center" id="portfolio">
+      <h2><i class="fa fa-files-o"></i> My Portfolio</h2>
+      <div class="row">
+        <div class="col">
+          <p class="subheading">Feel free to check out my recent web apps. I will continue to develop these projects as my skills and knowledge improves.<br />
+          I also welcome any feedback.</p>
+        </div>
+        <div class="portfolio-col col-sm-6 col-md-4">
+          <a href="simongame" target="_blank">
+          <div class="thumbnail up-hover"><img class="img-responsive img-rounded" src="images/portfolio/simongame.jpg" alt="Simon game" />
+            <div class="caption">
+              <h4>Simon game</h4>
+              <p>A digital recreation of the classic 80s game 'Simon'. Styled using HTML and CSS. Coded using Javascript and JQuery</p>
+            </div>
+          </div>
+          </a>
+        </div>
+          <div class="portfolio-col col-sm-6 col-md-4">
+            <a href="tictactoe" target="_blank">
+            <div class="thumbnail up-hover"><img class="img-responsive img-rounded" src="images/portfolio/tictactoe.jpg" alt="Tic Tac Toe" />
+              <div class="caption">
+                <h4>Tic Tac Toe</h4>
+                <p>Play the classic game of Tic Tac Toe aka 'Naughts and Crosses' against the computer. Coded using Jquery</p>
+              </div>
+            </div>
+            </a>
+          </div>
+        <div class="portfolio-col col-sm-6 col-md-4">
+            <a href="pomodoroclock" target="_blank">
+            <div class="thumbnail up-hover"><img class="img-responsive img-rounded" src="images/portfolio/pomodoroclock.jpg" alt="Pomodoro Clock" />
+              <div class="caption">
+                <h4>Pomodoro Clock</h4>
+                <p>A form of countdown timer that was originally used to break down work into intervals, 
+                  traditionally 25 minutes in length, separated by short breaks. Coded using JQuery</p>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="portfolio-col col-sm-6 col-md-4">
+              <a href="bubblepop" target="_blank">
+              <div class="thumbnail up-hover"><img class="img-responsive img-rounded" src="images/portfolio/bubblepop.jpg" alt="Bubble Pop! Game" />
+                <div class="caption">
+                  <h4>Bubble Pop!</h4>
+                  <p>A project that I am currently working on. This game requires the user to burst falling bubbles. Created using only HTML, CSS, and JQuery</p>
+                </div>
+              </div>
+              </a>
+            </div>
+        <div class="portfolio-col col-sm-6 col-md-4">
+          <a href="rockpaperscissors" target="_blank">
+          <div class="thumbnail up-hover"><img class="img-responsive img-rounded" src="images/portfolio/rockpaperscissors.jpg" alt="Rock, Paper, Scissors" />
+            <div class="caption">
+              <h4>Rock, Paper, Scissors</h4>
+              <p>Play unlimited games of the classic Rock, Paper, Scissors against the computer. Created using JQuery</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="portfolio-col col-sm-6 col-md-4">
+          <a href="calculator" target="_blank">
+          <div class="thumbnail up-hover"><img class="img-responsive img-rounded" src="images/portfolio/calculator.jpg" alt="Javascript Calculator" />
+            <div class="caption">
+              <h4>Javascript Calculator</h4>
+              <p>A standard pocket calculator created using vanilla Javascript</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="portfolio-col col-sm-6 col-md-4">
+          <a href="mathsgame" target="_blank">
+          <div class="thumbnail up-hover"><img class="img-responsive img-rounded" src="images/portfolio/mathsgame.jpg" alt="Maths Game" />
+            <div class="caption">
+              <h4>Maths Game</h4>
+              <p>This multiplication maths game requires you to answer as many correct standard equations within 60 seconds. Created using vanilla Javascript and styled using HTML, CSS and Bootstrap</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <!-- <div class="portfolio-col col-sm-6 col-md-4">
+          <a href="/weatherapp" target="_blank">
+          <div class="thumbnail up-hover"><img class="img-responsive img-rounded" src="images/portfolio/weatherapp.jpg" alt="Weather App" />
+            <div class="caption">
+              <h4>Local Weather App</h4>
+              <p>This web app takes your devices location and tells you the weather for your current location. Created using HTML, CSS, Javascript &amp; jQuery. Uses JSON to connect to the FCC API to retreive weather data.</p>
+            </div>
+          </div>
+          </a>
+        </div> -->
+        <div class="portfolio-col col-sm-6 col-md-4">
+          <a href="twitchfeed" target="_blank">
+          <div class="thumbnail up-hover"><img class="img-responsive img-rounded" src="images/portfolio/twitchstreams.jpg" alt="Twitch Stream Feed" />
+            <div class="caption">
+              <h4>Twitch Stream Feed</h4>
+              <p>Using the twitch API, display a list of defined users and display whether they are streaming or not. Includes functioning tabs and a search bar. Utilizes bootstrap, ajax and jquery well</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="portfolio-col col-sm-6 col-md-4">
+          <a href="quotegenerator" target="_blank">
+          <div class="thumbnail up-hover"><img class="img-responsive img-rounded" src="images/portfolio/quotegenerator.jpg" alt="Quote Generator" />
+            <div class="caption">
+              <h4>Quote Generator</h4>
+              <p>This inspirational quote generator will all but encourage you to follow your dreams and never give up! Created using HTML, CSS and jQuery.</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="portfolio-col col-sm-6 col-md-4">
+          <a href="wikiviewer" target="_blank">
+          <div class="thumbnail up-hover"><img class="img-responsive img-rounded" src="images/portfolio/wikipediaviewer.jpg" alt="Wikipedia Viewer" />
+            <div class="caption">
+              <h4>Wikipedia Search</h4>
+              <p>Search for Wikipedia articles. Created by linking to the Wikipedia API using jQuery and JSON. Styled using HTML, CSS and Bootstrap 4</p>
+            </div>
+          </div>
+          </a>
+        </div>
+      </div>
+  </div>
+  
+  <!-- Fourth Container (CONTACT) -->
+  <div class="fourth-container container-fluid" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h3><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Get In Contact With Me:</h3>
+        </div>
+        <div class="col-sm-8 text-left">
+          <form id="contact-form" method="POST" action="contact.php" role="form">
+
+            <div class="messages"></div>
+
+            <div class="row">
+              <div class="col-sm-6">
+              <div class="form-group">
+                <label for="name">Name *</label>
+                <input id="name" type="text" name="name" class="form-control" placeholder="Please enter your name" required="required" data-error="Name is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+              </div>
+              <div class="col-sm-6">
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input id="email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email address is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" type="text" name="message" rows="4" class="form-control" placeholder="Message for me" required="required" data-error="Please, leave me a message."></textarea>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <p><strong>*</strong> These fields are required.</p>
+
+            <button type="submit" class="btn btn-success btn-send">Send message</button>
+
+          </form>
+        </div>
+        <div class="col-sm-4 text-center">
+          <div class="social-buttons">
+            <a class="btn btn-block" href="https://github.com/jclarkedb" target="_blank">
+              <span class="fa fa-github"></span>
+              Github
+            </a>
+            <a class="btn btn-block" href="https://www.linkedin.com/in/jamie-clarke-jnc" target="_blank">
+              <span class="fa fa-linkedin"></span>
+              LinkedIn
+            </a>
+            <a class="btn btn-block" href="https://codepen.io/jclarkedb/" target="_blank">
+              <span class="fa fa-codepen"></span>
+              Codepen
+            </a>
+            <a class="btn btn-block" href="https://www.freecodecamp.com/jclarkedb" target="_blank">
+              <span class="fa fa-free-code-camp"></span>
+              Free Code Camp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <!-- Footer -->
+    <footer class="container-fluid text-center" id="footer">
+      <div class="container">
+        <p>Webpage created by J. Clarke (JNC) 2018</p>
+      </div>
+    </footer>
+  
+  </body>    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+
+<script src="scripts/main.js"></script>
+
+    
+</html>
+    
